@@ -1,0 +1,12 @@
+{
+  "name": "re2-test-cli",
+  "version": "0.0.1",
+  "description": "Simple way to test RE2 patterns in node",
+  "bin": {
+    "re2": "./bin/index.js"
+  },
+  "dependencies": {
+    "re2": "^1.20.5",
+    "yargs": "^17.7.2"
+  }
+}
