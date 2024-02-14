@@ -20,5 +20,5 @@ try {
       const result = pattern.test(yargs.argv["test"]);
       console.log(result);
 } catch(ex) {
-      console.log("Failed to test Regex. " + ex);
+      console.log(`Failed to test Regex. ${ex.message}`);
 }
